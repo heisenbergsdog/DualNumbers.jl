@@ -45,3 +45,4 @@ Base.inv(x::Dual) = conj(x) * (1 / x.real^2)
 Base.:/(x::Dual, y::Dual) = x * inv(y)
 
 end # module DualNumbers
+

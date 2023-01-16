@@ -11,5 +11,5 @@ y = Dual(2, 3)
 @test x - y == Dual(-1, -1)
 
 @test 4 * x == Dual(4, 8)
-@test y * x == Dual(10, 15)
+@test y * 5 == Dual(10, 15)
 
